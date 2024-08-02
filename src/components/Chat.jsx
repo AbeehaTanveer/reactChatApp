@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import socketIo from "socket.io-client";
 import './Chat.css';
 
-const socket = socketIo('https://chat-application-4pzk.vercel.app/'); // Initialize Socket.io client
+const socket = socketIo('https://chat-application-4pzk.vercel.app'); // Initialize Socket.io client
 
 const Chat = () => {
   const location = useLocation();
