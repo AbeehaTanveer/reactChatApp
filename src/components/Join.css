@@ -1,0 +1,61 @@
+
+  
+
+.login-container {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .login-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  .login-logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .login-title {
+    color: #e91e63;
+    font-weight: bold;
+  }
+  
+  .underline {
+    width: 60%;
+    height: 2px;
+    background-color: #e91e63;
+    margin-bottom: 20px;
+  }
+  
+  .input-field .MuiOutlinedInput-root {
+    color: white;
+    border-radius: 8px;
+    background-color: #333;
+  }
+  
+  .input-field .MuiOutlinedInput-notchedOutline {
+    border-color: #e91e63;
+  }
+  
+  .input-field .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #e91e63;
+  }
+  
+  .login-button {
+    background-color: #e91e63;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #d81b60;
+  }
+  
